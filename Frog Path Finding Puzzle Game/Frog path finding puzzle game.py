@@ -25,8 +25,8 @@ obstacles = [
 for x, y in obstacles:
     grid[x][y] = 1
   
-player_x, player_y = 9, 0  # Red Circle ki shuruati jagah
-goal_x, goal_y = 0, 9      # Yellow Circle
+player_x, player_y = 9, 0  
+goal_x, goal_y = 0, 9      
 
 run = True
 clock = pygame.time.Clock()
